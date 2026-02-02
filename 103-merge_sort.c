@@ -8,7 +8,8 @@
  * @mid: The middle index of the array.
  * @back: The back index of the array.
  */
-void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back)
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
+	       size_t back)
 {
 	size_t i, j, k = 0;
 
@@ -31,7 +32,8 @@ void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back)
 }
 
 /**
- * merge_sort_recursive - Implements the merge sort algorithm through recursion.
+ * merge_sort_recursive - Implements the merge sort algorithm
+ * through recursion.
  * @subarr: A subarray of an array of integers to sort.
  * @buff: A buffer to store the sorted result.
  * @front: The front index of the subarray.
