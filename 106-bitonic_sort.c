@@ -39,7 +39,8 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq_len,
  * @seq_len: The length of the sequence.
  * @dir: The direction to sort.
  */
-void bitonic_seq(int *array, size_t size, size_t start, size_t seq_len, int dir)
+void bitonic_seq(int *array, size_t size, size_t start,
+	       size_t seq_len, int dir)
 {
 	size_t cut = seq_len / 2;
 	char *str = (dir == 1) ? "UP" : "DOWN";
